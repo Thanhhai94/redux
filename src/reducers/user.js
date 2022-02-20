@@ -1,4 +1,4 @@
-const useReducer = (state, action) => 
+const useReducer = (state ={}, action) => 
     {
         return state
     }

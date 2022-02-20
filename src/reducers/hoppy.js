@@ -1,4 +1,9 @@
-const hobbyReducer = (state, action) => {
+const initState = {
+    list: [],
+    activeId: null
+}
+
+const hobbyReducer = (state = initState, action) => {
     switch(action.type){
         case 'ADD_HOBBY' : {
         
